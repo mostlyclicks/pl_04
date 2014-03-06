@@ -1,0 +1,59 @@
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+  background-size:cover;
+}
+
+.swipe-wrap div {
+  
+
+
+}
+
+body, html {height:100%;}
+
+body {font-family:"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+h1 {
+  font-size:4em;
+  font-weight:100;
+  margin:.5em;
+
+}
+
+
+#sec1 {
+  background:url('green.png') no-repeat 0 0 fixed #cdcdcd;
+  height:100vh;
+  h1 {-webkit-animation: fade-in 3s;}
+  a {
+    color:rgba(0,0,0,.3);
+  }
+}
+#sec2 {background:url('orange.png') no-repeat 0 0 fixed;height:100vh;
+  h1 {-webkit-animation: fade-in 3s;animation-delay: 15s}
+  a {
+    color:rgba(0,0,0,.3);
+  }
+}
+#sec3 {background:url('blue.png') no-repeat 0 0 fixed;height:100vh;
+  h1, h3 {color:rgba(255,255,255,.7);-webkit-animation: fade-in 3s;}
+  a {
+    color:rgba(0,0,0,.3);
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}

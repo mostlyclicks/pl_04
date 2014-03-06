@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require swipe
 //= require turbolinks
 //= require_tree .
