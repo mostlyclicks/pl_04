@@ -63,6 +63,18 @@ h1 {
   #sec3 a {
     color: rgba(0, 0, 0, 0.3); }
 
+#footer {
+  position: fixed;
+  padding-top: 10px;
+  left: 0px;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  background: #000000; }
+  #footer h3 {
+    color: white;
+    margin-top: 10px; }
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0; }
@@ -5110,6 +5122,18 @@ h1 {
     -webkit-animation: fade-in 3s; }
   #sec3 a {
     color: rgba(0, 0, 0, 0.3); }
+
+#footer {
+  position: fixed;
+  padding-top: 10px;
+  left: 0px;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  background: #000000; }
+  #footer h3 {
+    color: white;
+    margin-top: 10px; }
 
 @-webkit-keyframes fade-in {
   0% {

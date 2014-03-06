@@ -48,6 +48,17 @@ h1 {
   }
 }
 
+#footer {
+  position:fixed;
+  padding-top:10px;
+  left:0px;
+  bottom:0px;
+  height:60px;
+  width:100%;
+  background:#000000;
+  h3 {color:white;margin-top:10px;}
+}
+
 @-webkit-keyframes fade-in {
   0%   { opacity: 0; }
   100% { opacity: 1; }
