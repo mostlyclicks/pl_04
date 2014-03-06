@@ -33,20 +33,20 @@ h1 {
 
 
 #sec1 {
-  background:url('green.png') no-repeat 0 0 fixed #cdcdcd;
+  background:url('green.png') no-repeat 0 0 fixed #8dc73f;
   height:100vh;
   h1 {-webkit-animation: fade-in 3s;}
   a {
     color:rgba(0,0,0,.3);
   }
 }
-#sec2 {background:url('orange.png') no-repeat 0 0 fixed;height:100vh;
+#sec2 {background:url('orange.png') no-repeat 0 0 fixed #f26522;height:100vh;
   h1 {-webkit-animation: fade-in 3s;animation-delay: 15s}
   a {
     color:rgba(0,0,0,.3);
   }
 }
-#sec3 {background:url('blue.png') no-repeat 0 0 fixed;height:100vh;
+#sec3 {background:url('blue.png') no-repeat 0 0 fixed #448ccb;height:100vh;
   h1, h3 {color:rgba(255,255,255,.7);-webkit-animation: fade-in 3s;}
   a {
     color:rgba(0,0,0,.3);
